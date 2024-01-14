@@ -1,0 +1,295 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans",sans-serif;
+
+
+}
+
+
+  html {
+    scroll-behavior: smooth;
+   overflow-x: hidden;
+   overflow-y: scroll;
+    
+    
+  }
+
+
+/* Hero section start */
+
+
+.main{
+  margin-top:7rem;
+  
+}
+.main h1{
+  font-weight: bold;
+}
+.svg_1{
+  width: 56.166px;
+height: 56.166px;
+flex-shrink: 0;
+position: absolute;
+top:6rem;
+}
+.svg_2{
+  width: 37.378px;
+height: 37.378px;
+flex-shrink: 0;
+position: absolute;
+top:4.8rem;
+
+}
+
+.svg_3{
+  width: 53px;
+height: 53px;
+flex-shrink: 0;
+position: absolute;
+top:9.2rem;
+left:5rem;
+}
+.svg_4{
+  stroke-width: 2.864px;
+  stroke: #000;
+  width: 213.69px;
+height: 16.888px;
+flex-shrink: 0;
+position: absolute;
+top: 22rem;
+left:40rem;
+}
+
+.grad_1{
+  background: linear-gradient(to right, #31AEFF, #FF47AD);
+  width: 628.144px;
+height: 72.987px;
+transform: rotate(-54.169deg);
+flex-shrink: 0;
+}
+.head h1{
+  color: #212121;
+
+text-align: center;
+/* font-family: Product Sans Black; */
+font-size: 62px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.head .stu{
+
+  color: #C53183;
+  font-family: DM Serif Display;
+  font-size: 62px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pers{
+  color: #212121;
+
+  text-align: center;
+  /* font-family: Product Sans Black; */
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.head .pers{
+  line-height: 1.6;
+}
+
+.sub_head{
+  
+  font-size: 0.9rem;
+  margin-right:20rem;
+  margin-left: 22rem;
+}
+
+.sub_head p{
+  line-height: 1.2;
+  color: #000;
+  font-family: Product Sans;
+  font-size: 17px;
+  font-style: normal;
+
+}
+.button button{
+  display: inline-flex;
+  padding: 11px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 10px;
+  border: 3px solid #000;
+  background: #FFF;
+
+  color: #000;
+
+  text-align: right;
+  font-family: Product Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.button{
+  margin-top:1rem;
+  overflow: hidden;
+transition: all 0.6s;
+}
+
+.button:active{
+transform: scale(0.9,0.9);
+cursor: pointer;
+}
+/* Hero section end */
+
+/* Carousel section start */
+
+.main-Carousel{
+  margin-top: 9rem;
+  /* background-color: aqua; */
+  text-align: center;
+ 
+}
+
+.Carousel-head h4{
+  color: #000;
+
+text-align: center;
+font-family: Product Sans Black;
+font-size: 42px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+
+
+.card{
+  width: 320px;
+height: 476px;
+flex-shrink: 0;
+
+border-radius: 22px;
+border: 3px solid rgba(0, 0, 0, 0.15);
+background: #FFF;
+
+}
+.card img{
+  border-radius: 1.6rem;
+  
+  height: 264px;
+  flex-shrink: 0;
+  border-radius: 22px;
+
+
+  overflow: hidden;
+transition: all 0.6s;
+} 
+
+
+.card img:hover{
+transform: scale(0.9,0.9);
+cursor: pointer;
+}
+
+.card-body{
+  text-align: left;
+  margin-left: -1rem;
+}
+
+.card-body h5{
+  color: #000;
+
+  text-align: left;
+  font-family: Product Sans Medium;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-body p{
+
+  color: #000;
+
+  font-family: Product Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.card-body span{
+  word-spacing: 0.2rem;
+}
+.card-body .card-text{
+  word-spacing: 0rem;
+}
+
+.card-body .card-text-1 p{
+  word-spacing: 10rem;
+}
+
+.card_wrap{
+  display: flex;
+}
+.card{
+  margin:1rem;
+  width:calc(90%/4);
+}
+
+
+/* 
+booksession part start */
+.booksession_main{
+  margin: 6rem;
+  margin-top: 6rem;
+  display: flex;
+width: 1293px;
+height: 750px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+
+.book_session_img img{
+width:34rem;
+height:34rem;
+position: absolute;
+left: 7rem;
+margin-top: -7rem;
+}
+
+.book_session_content h1{
+  margin-top: -3rem;
+  color: #C53183;
+  margin-left: 20px;
+text-align: left;
+font-family: Product Sans Black;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.book_session_content p{
+  color: #000;
+  text-align: left;
+  /* margin-top: -7rem; */
+  margin-left: 20px;
+font-family: Product Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
